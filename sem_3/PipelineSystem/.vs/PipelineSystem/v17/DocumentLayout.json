@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\services\\processorpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\services\\processorpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\infrastructure\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\infrastructure\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\services\\pipelinecoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\services\\pipelinecoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\services\\studentemitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\services\\studentemitter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\services\\processors\\cicdprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\services\\processors\\cicdprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\services\\processors\\teacherprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\services\\processors\\teacherprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\services\\statistics\\statisticsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\services\\statistics\\statisticsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\services\\processors\\baseprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\services\\processors\\baseprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\models\\pipelineconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\models\\pipelineconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\models\\commitevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\models\\commitevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\interfaces\\iprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\interfaces\\iprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\interfaces\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\interfaces\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\pipelinesystem\\interfaces\\ievent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{339D9508-3D97-43CE-ADE6-CB232AF69A61}|PipelineSystem\\PipelineSystem.csproj|solutionrelative:pipelinesystem\\interfaces\\ievent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 507,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\Processors\\BaseProcessor.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Services\\Processors\\BaseProcessor.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\Processors\\BaseProcessor.cs",
+              "RelativeToolTip": "PipelineSystem\\Services\\Processors\\BaseProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:33:57.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CiCdProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\Processors\\CiCdProcessor.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Services\\Processors\\CiCdProcessor.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\Processors\\CiCdProcessor.cs",
+              "RelativeToolTip": "PipelineSystem\\Services\\Processors\\CiCdProcessor.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:36:50.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TeacherProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\Processors\\TeacherProcessor.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Services\\Processors\\TeacherProcessor.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\Processors\\TeacherProcessor.cs",
+              "RelativeToolTip": "PipelineSystem\\Services\\Processors\\TeacherProcessor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:30:44.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StatisticsManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\Statistics\\StatisticsManager.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Services\\Statistics\\StatisticsManager.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\Statistics\\StatisticsManager.cs",
+              "RelativeToolTip": "PipelineSystem\\Services\\Statistics\\StatisticsManager.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:35:47.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PipelineCoordinator.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\PipelineCoordinator.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Services\\PipelineCoordinator.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\PipelineCoordinator.cs",
+              "RelativeToolTip": "PipelineSystem\\Services\\PipelineCoordinator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:44:10.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProcessorPool.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\ProcessorPool.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Services\\ProcessorPool.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\ProcessorPool.cs",
+              "RelativeToolTip": "PipelineSystem\\Services\\ProcessorPool.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:44:30.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "config.json",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\config.json",
+              "RelativeDocumentMoniker": "PipelineSystem\\config.json",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\config.json",
+              "RelativeToolTip": "PipelineSystem\\config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-13T01:31:48.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentEmitter.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\StudentEmitter.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Services\\StudentEmitter.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Services\\StudentEmitter.cs",
+              "RelativeToolTip": "PipelineSystem\\Services\\StudentEmitter.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:44:31.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Program.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Program.cs",
+              "RelativeToolTip": "PipelineSystem\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:18:56.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PipelineConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Models\\PipelineConfig.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Models\\PipelineConfig.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Models\\PipelineConfig.cs",
+              "RelativeToolTip": "PipelineSystem\\Models\\PipelineConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:32:44.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CommitEvent.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Models\\CommitEvent.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Models\\CommitEvent.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Models\\CommitEvent.cs",
+              "RelativeToolTip": "PipelineSystem\\Models\\CommitEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:32:23.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Interfaces\\IProcessor.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Interfaces\\IProcessor.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Interfaces\\IProcessor.cs",
+              "RelativeToolTip": "PipelineSystem\\Interfaces\\IProcessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:34:17.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ILogger.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Interfaces\\ILogger.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Interfaces\\ILogger.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Interfaces\\ILogger.cs",
+              "RelativeToolTip": "PipelineSystem\\Interfaces\\ILogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:32:56.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEvent.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Interfaces\\IEvent.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Interfaces\\IEvent.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Interfaces\\IEvent.cs",
+              "RelativeToolTip": "PipelineSystem\\Interfaces\\IEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:34:14.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Infrastructure\\Logger.cs",
+              "RelativeDocumentMoniker": "PipelineSystem\\Infrastructure\\Logger.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab7_v2\\PipelineSystem\\Infrastructure\\Logger.cs",
+              "RelativeToolTip": "PipelineSystem\\Infrastructure\\Logger.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwCMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:33:38.67Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 133,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

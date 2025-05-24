@@ -1,0 +1,625 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBAC84F-1750-47C2-874F-766D490C2E2A}|DatabaseContext\\DatabaseContext.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\databasecontext\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBAC84F-1750-47C2-874F-766D490C2E2A}|DatabaseContext\\DatabaseContext.csproj|solutionrelative:databasecontext\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\student\\averageageingroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\student\\averageageingroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\curator\\assigncuratortogroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\curator\\assigncuratortogroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA07B070-0793-44EB-91D9-8F9184C96378}|DatabaseModels\\DatabaseModels.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\databasemodels\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA07B070-0793-44EB-91D9-8F9184C96378}|DatabaseModels\\DatabaseModels.csproj|solutionrelative:databasemodels\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA07B070-0793-44EB-91D9-8F9184C96378}|DatabaseModels\\DatabaseModels.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\databasemodels\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA07B070-0793-44EB-91D9-8F9184C96378}|DatabaseModels\\DatabaseModels.csproj|solutionrelative:databasemodels\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\group\\deletegroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\group\\deletegroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CF9649-0383-4004-8F78-59F16DBCD889}|Core\\Core.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\core\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CF9649-0383-4004-8F78-59F16DBCD889}|Core\\Core.csproj|solutionrelative:core\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CF9649-0383-4004-8F78-59F16DBCD889}|Core\\Core.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\core\\interfaces\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CF9649-0383-4004-8F78-59F16DBCD889}|Core\\Core.csproj|solutionrelative:core\\interfaces\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CF9649-0383-4004-8F78-59F16DBCD889}|Core\\Core.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\core\\databasecore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CF9649-0383-4004-8F78-59F16DBCD889}|Core\\Core.csproj|solutionrelative:core\\databasecore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CF9649-0383-4004-8F78-59F16DBCD889}|Core\\Core.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\core\\datarepositories\\entityframeworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CF9649-0383-4004-8F78-59F16DBCD889}|Core\\Core.csproj|solutionrelative:core\\datarepositories\\entityframeworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\facade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\facade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\curator\\createcuratorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\curator\\createcuratorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\group\\creategroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\group\\creategroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\student\\createstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\student\\createstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\curator\\deletecuratorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\curator\\deletecuratorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\icommandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\icommandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\curator\\getcuratorbystudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\curator\\getcuratorbystudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\student\\deletestudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\student\\deletestudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\commandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\commandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\student\\updatestudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\student\\updatestudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\student\\showstudentscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\student\\showstudentscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\student\\showstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\student\\showstudentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\student\\countstudentsingroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\student\\countstudentsingroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\group\\updategroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\group\\updategroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\group\\showgroupscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\group\\showgroupscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\group\\showgroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\group\\showgroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\curator\\updatecuratorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\curator\\updatecuratorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\curator\\showcuratorscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\curator\\showcuratorscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\presentation\\commands\\curator\\showcuratorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DDB2AEB-35C2-45F0-A2DF-06865656D64D}|Presentation\\Presentation.csproj|solutionrelative:presentation\\commands\\curator\\showcuratorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA07B070-0793-44EB-91D9-8F9184C96378}|DatabaseModels\\DatabaseModels.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\databasemodels\\curator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA07B070-0793-44EB-91D9-8F9184C96378}|DatabaseModels\\DatabaseModels.csproj|solutionrelative:databasemodels\\curator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CF9649-0383-4004-8F78-59F16DBCD889}|Core\\Core.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\core\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CF9649-0383-4004-8F78-59F16DBCD889}|Core\\Core.csproj|solutionrelative:core\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CF9649-0383-4004-8F78-59F16DBCD889}|Core\\Core.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\core\\services\\curatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CF9649-0383-4004-8F78-59F16DBCD889}|Core\\Core.csproj|solutionrelative:core\\services\\curatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 626,
+          "SelectedChildIndex": 29,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICommandFactory.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\ICommandFactory.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\ICommandFactory.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\ICommandFactory.cs",
+              "RelativeToolTip": "Presentation\\Commands\\ICommandFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:55:12.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\ICommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\ICommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\ICommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:55:10.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\UpdateStudentCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Student\\UpdateStudentCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\UpdateStudentCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Student\\UpdateStudentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:55:01.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T09:36:54.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ShowStudentsCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\ShowStudentsCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Student\\ShowStudentsCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\ShowStudentsCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Student\\ShowStudentsCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:58.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ShowStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\ShowStudentCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Student\\ShowStudentCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\ShowStudentCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Student\\ShowStudentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:57.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\CreateStudentCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Student\\CreateStudentCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\CreateStudentCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Student\\CreateStudentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:55.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Facade.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Facade.cs",
+              "RelativeDocumentMoniker": "Presentation\\Facade.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Facade.cs",
+              "RelativeToolTip": "Presentation\\Facade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T09:36:55.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Menu.cs",
+              "RelativeDocumentMoniker": "Presentation\\Menu.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Menu.cs",
+              "RelativeToolTip": "Presentation\\Menu.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T06:06:56.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CountStudentsInGroupCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\CountStudentsInGroupCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Student\\CountStudentsInGroupCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\CountStudentsInGroupCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Student\\CountStudentsInGroupCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:53.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AverageAgeInGroupCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\AverageAgeInGroupCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Student\\AverageAgeInGroupCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\AverageAgeInGroupCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Student\\AverageAgeInGroupCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:51.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CommandFactory.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\CommandFactory.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\CommandFactory.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\CommandFactory.cs",
+              "RelativeToolTip": "Presentation\\Commands\\CommandFactory.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwDYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T10:00:17.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateGroupCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Group\\UpdateGroupCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Group\\UpdateGroupCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Group\\UpdateGroupCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Group\\UpdateGroupCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:44.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ShowGroupsCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Group\\ShowGroupsCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Group\\ShowGroupsCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Group\\ShowGroupsCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Group\\ShowGroupsCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:41.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteGroupCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Group\\DeleteGroupCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Group\\DeleteGroupCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Group\\DeleteGroupCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Group\\DeleteGroupCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:37.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DeleteStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\DeleteStudentCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Student\\DeleteStudentCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Student\\DeleteStudentCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Student\\DeleteStudentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T06:07:16.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateGroupCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Group\\CreateGroupCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Group\\CreateGroupCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Group\\CreateGroupCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Group\\CreateGroupCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:36.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateCuratorCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\UpdateCuratorCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Curator\\UpdateCuratorCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\UpdateCuratorCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Curator\\UpdateCuratorCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:34.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ShowCuratorsCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\ShowCuratorsCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Curator\\ShowCuratorsCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\ShowCuratorsCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Curator\\ShowCuratorsCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:34.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ShowCuratorCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\ShowCuratorCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Curator\\ShowCuratorCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\ShowCuratorCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Curator\\ShowCuratorCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:32.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetCuratorByStudentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\GetCuratorByStudentCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Curator\\GetCuratorByStudentCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\GetCuratorByStudentCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Curator\\GetCuratorByStudentCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:31.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ShowGroupCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Group\\ShowGroupCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Group\\ShowGroupCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Group\\ShowGroupCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Group\\ShowGroupCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T06:07:58.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DeleteCuratorCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\DeleteCuratorCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Curator\\DeleteCuratorCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\DeleteCuratorCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Curator\\DeleteCuratorCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:28.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateCuratorCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\CreateCuratorCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Curator\\CreateCuratorCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\CreateCuratorCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Curator\\CreateCuratorCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T00:54:26.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatabaseCore.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Core\\DatabaseCore.cs",
+              "RelativeDocumentMoniker": "Core\\DatabaseCore.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Core\\DatabaseCore.cs",
+              "RelativeToolTip": "Core\\DatabaseCore.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAxwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T02:10:58.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Core\\Interfaces\\IDataRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IDataRepository.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Core\\Interfaces\\IDataRepository.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IDataRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T02:10:56.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GroupService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Core\\Services\\GroupService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\GroupService.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Core\\Services\\GroupService.cs",
+              "RelativeToolTip": "Core\\Services\\GroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwGEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T02:10:52.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Core\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Core\\Services\\StudentService.cs",
+              "RelativeToolTip": "Core\\Services\\StudentService.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAEMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T02:10:50.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CuratorService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Core\\Services\\CuratorService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\CuratorService.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Core\\Services\\CuratorService.cs",
+              "RelativeToolTip": "Core\\Services\\CuratorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T02:10:54.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\DatabaseContext\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "DatabaseContext\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\DatabaseContext\\ApplicationContext.cs",
+              "RelativeToolTip": "DatabaseContext\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T00:31:00.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Curator.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\DatabaseModels\\Curator.cs",
+              "RelativeDocumentMoniker": "DatabaseModels\\Curator.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\DatabaseModels\\Curator.cs",
+              "RelativeToolTip": "DatabaseModels\\Curator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T02:09:24.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\DatabaseModels\\Group.cs",
+              "RelativeDocumentMoniker": "DatabaseModels\\Group.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\DatabaseModels\\Group.cs",
+              "RelativeToolTip": "DatabaseModels\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T02:09:20.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\DatabaseModels\\Student.cs",
+              "RelativeDocumentMoniker": "DatabaseModels\\Student.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\DatabaseModels\\Student.cs",
+              "RelativeToolTip": "DatabaseModels\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T02:08:23.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssignCuratorToGroupCommand.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\AssignCuratorToGroupCommand.cs",
+              "RelativeDocumentMoniker": "Presentation\\Commands\\Curator\\AssignCuratorToGroupCommand.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Presentation\\Commands\\Curator\\AssignCuratorToGroupCommand.cs",
+              "RelativeToolTip": "Presentation\\Commands\\Curator\\AssignCuratorToGroupCommand.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T10:00:12.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EntityFrameworkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Core\\DataRepositories\\EntityFrameworkRepository.cs",
+              "RelativeDocumentMoniker": "Core\\DataRepositories\\EntityFrameworkRepository.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\lab9\\lab9\\Core\\DataRepositories\\EntityFrameworkRepository.cs",
+              "RelativeToolTip": "Core\\DataRepositories\\EntityFrameworkRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T02:21:25.078Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 15,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

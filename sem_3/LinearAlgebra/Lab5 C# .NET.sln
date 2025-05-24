@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearAlgebra", "LinearAlgebra\LinearAlgebra.csproj", "{D087FED5-5963-420D-84BD-621A82F6E3B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorDemo", "VectorDemo\VectorDemo.csproj", "{426A58C9-831B-4A25-81B2-D92993A7D56A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathVectorTests", "MathVectorTests\MathVectorTests.csproj", "{17A70F40-6736-4D40-8FC7-E25F22406E3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D087FED5-5963-420D-84BD-621A82F6E3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D087FED5-5963-420D-84BD-621A82F6E3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D087FED5-5963-420D-84BD-621A82F6E3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D087FED5-5963-420D-84BD-621A82F6E3B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{426A58C9-831B-4A25-81B2-D92993A7D56A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426A58C9-831B-4A25-81B2-D92993A7D56A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426A58C9-831B-4A25-81B2-D92993A7D56A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426A58C9-831B-4A25-81B2-D92993A7D56A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A70F40-6736-4D40-8FC7-E25F22406E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A70F40-6736-4D40-8FC7-E25F22406E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A70F40-6736-4D40-8FC7-E25F22406E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A70F40-6736-4D40-8FC7-E25F22406E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

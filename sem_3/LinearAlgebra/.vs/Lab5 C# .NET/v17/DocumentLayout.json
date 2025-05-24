@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\LinearAlgebra\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{426A58C9-831B-4A25-81B2-D92993A7D56A}|VectorDemo\\VectorDemo.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\linearalgebra\\vectordemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{426A58C9-831B-4A25-81B2-D92993A7D56A}|VectorDemo\\VectorDemo.csproj|solutionrelative:vectordemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D087FED5-5963-420D-84BD-621A82F6E3B1}|LinearAlgebra\\LinearAlgebra.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\linearalgebra\\linearalgebra\\imathvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D087FED5-5963-420D-84BD-621A82F6E3B1}|LinearAlgebra\\LinearAlgebra.csproj|solutionrelative:linearalgebra\\imathvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17A70F40-6736-4D40-8FC7-E25F22406E3B}|MathVectorTests\\MathVectorTests.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\linearalgebra\\mathvectortests\\mathvectorunittests1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17A70F40-6736-4D40-8FC7-E25F22406E3B}|MathVectorTests\\MathVectorTests.csproj|solutionrelative:mathvectortests\\mathvectorunittests1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D087FED5-5963-420D-84BD-621A82F6E3B1}|LinearAlgebra\\LinearAlgebra.csproj|c:\\users\\\u0432\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\linearalgebra\\linearalgebra\\mathvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D087FED5-5963-420D-84BD-621A82F6E3B1}|LinearAlgebra\\LinearAlgebra.csproj|solutionrelative:linearalgebra\\mathvector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 12,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 162,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MathVector.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\LinearAlgebra\\LinearAlgebra\\MathVector.cs",
+              "RelativeDocumentMoniker": "LinearAlgebra\\MathVector.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\LinearAlgebra\\LinearAlgebra\\MathVector.cs",
+              "RelativeToolTip": "LinearAlgebra\\MathVector.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAvwBUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:05:57.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MathVectorUnitTests1.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\LinearAlgebra\\MathVectorTests\\MathVectorUnitTests1.cs",
+              "RelativeDocumentMoniker": "MathVectorTests\\MathVectorUnitTests1.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\LinearAlgebra\\MathVectorTests\\MathVectorUnitTests1.cs",
+              "RelativeToolTip": "MathVectorTests\\MathVectorUnitTests1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:43:48.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 286,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\LinearAlgebra\\VectorDemo\\Program.cs",
+              "RelativeDocumentMoniker": "VectorDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\LinearAlgebra\\VectorDemo\\Program.cs",
+              "RelativeToolTip": "VectorDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T16:02:16.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMathVector.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\LinearAlgebra\\LinearAlgebra\\IMathVector.cs",
+              "RelativeDocumentMoniker": "LinearAlgebra\\IMathVector.cs",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u043B\u0435\u0440\u0438\u0439\\source\\repos\\LinearAlgebra\\LinearAlgebra\\IMathVector.cs",
+              "RelativeToolTip": "LinearAlgebra\\IMathVector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T21:45:12.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

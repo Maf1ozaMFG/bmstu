@@ -1,0 +1,13 @@
+Initially, the C language was intended for system programming. A system program is a part of an operating system or is one of its utilities. Let's look at some of them.
+
+Operating systems
+ 
+Interpreters
+Editors
+Compilers
+File Utilities
+Optimizers
+Real-time dispatchers
+Drivers
+As the popularity of the C language grew, many programmers began to use it to program all tasks, using its machine independence and efficiency, and besides, they just liked it!
+By the time the C language appeared, programming languages had gone through a difficult and difficult path of improvement. Of course, the newly created language has absorbed all the best.

@@ -1,0 +1,150 @@
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
+
+
+MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::MainWindow)
+{
+    ui->setupUi(this);
+
+    connect(ui->pushButtonClear, &QPushButton::clicked, this, &MainWindow::onClearClicked);
+    connect(ui->pushButtonStartConvert, &QPushButton::clicked, this, &MainWindow::onStartConvertClicked);
+    connect(ui->pushButtonCopy, &QPushButton::clicked, this, &MainWindow::onCopyClicked);
+    connect(ui->pushButtonSwap, &QPushButton::clicked, this, &MainWindow::onSwapClicked);
+
+    connect(ui->radioButtonFrom2, &QRadioButton::released, this, &MainWindow::dataEntered);
+    connect(ui->radioButtonFrom10, &QRadioButton::released, this, &MainWindow::dataEntered);
+    connect(ui->radioButtonFrom16, &QRadioButton::released, this, &MainWindow::dataEntered);
+    connect(ui->radioButtonFromPersonal, &QRadioButton::released, this, &MainWindow::dataEntered);
+    connect(ui->lineEditPersonalFrom, &QLineEdit::textChanged, this, &MainWindow::dataEntered);
+
+    connect(ui->radioButtonTo2, &QRadioButton::released, this, &MainWindow::dataEntered);
+    connect(ui->radioButtonTo10, &QRadioButton::released, this, &MainWindow::dataEntered);
+    connect(ui->radioButtonTo16, &QRadioButton::released, this, &MainWindow::dataEntered);
+    connect(ui->radioButtonToPersonal, &QRadioButton::released, this, &MainWindow::dataEntered);
+    connect(ui->lineEditPersonalTo, &QLineEdit::textChanged, this, &MainWindow::dataEntered);
+    
+    connect(ui->pushButtonSwap, &QPushButton::clicked, this, &MainWindow::dataEntered);
+
+}
+
+MainWindow::~MainWindow()
+{
+    delete ui;
+}
+
+void MainWindow::onCopyClicked() { //&&&&&&&&&&&
+    QClipboard* clipboard = QApplication::clipboard();
+    clipboard->setText(ui->lineEditResult->text());
+}
+
+void MainWindow::onClearClicked() { //&&&&&&&&&&&
+    doOperationClear(&context);
+    ui->lineEditEnterData->setText("");
+    ui->lineEditResult->setText("");
+    ui->lineEditPersonalFrom->setText("");
+    ui->lineEditPersonalTo->setText("");
+}
+
+void MainWindow::onStartConvertClicked() { //&&&&&&&&&&&
+    AppParams* params = (AppParams*)calloc(1, sizeof(AppParams));
+    getAppParams(params);
+    context.resultValue = "";
+
+    validation(params, &context);
+    if (params->validationResult == SUCCESS) {
+        doOperationConverting(params, &context);
+    }
+    ui->lineEditResult->setText(QString::fromStdString(context.resultValue));
+
+    free(params);
+}
+
+
+
+void MainWindow::onSwapClicked() {
+    AppParams* params = (AppParams*)calloc(1, sizeof(AppParams));
+    getAppParams(params);
+
+    if (params->validationResult == SUCCESS) {
+        swapRadixes(params);
+    } else {
+        ui->lineEditResult->setText("Set all radix correctly");
+    }
+
+    free(params);
+}
+
+void MainWindow::dataEntered() {
+}
+
+void MainWindow::swapRadixes(AppParams* params) { //&&&&&&&&&&&
+    swapRadixFrom(params);
+    swapRadixTo(params);
+}
+
+void MainWindow::getAppParams(AppParams* params) { //&&&&&&&&&&&
+    if (ui->radioButtonFrom2->isChecked())
+        params->radixFrom = BIN;
+    else if (ui->radioButtonFrom10->isChecked())
+        params->radixFrom = DEC;
+    else if (ui->radioButtonFrom16->isChecked())
+        params->radixFrom = HEX;
+    else if (ui->radioButtonFromPersonal->isChecked()) {
+        params->radixFrom = (ui->lineEditPersonalFrom->text()).toStdString();
+    }
+
+    if (ui->radioButtonTo2->isChecked())
+        params->radixTo = BIN;
+    else if (ui->radioButtonTo10->isChecked())
+        params->radixTo = DEC;
+    else if (ui->radioButtonTo16->isChecked())
+        params->radixTo = HEX;
+    else if (ui->radioButtonToPersonal->isChecked()) {
+        params->radixTo = (ui->lineEditPersonalTo->text()).toStdString();
+    }
+
+    if (ui->radioButtonPositive->isChecked()) {
+        params->signOfNumber = POS;
+    } else if (ui->radioButtonNegative->isChecked()) {
+        params->signOfNumber = NEG;
+    } else {
+        params->signOfNumber = NON_SELECTED;
+    }
+
+    params->initValue = ui->lineEditEnterData->text().toStdString();
+    params->validationResult = SUCCESS;
+
+}
+void MainWindow::swapRadixFrom(AppParams* params) { //&&&&&&&&&&&
+    if (params->radixTo == BIN) {
+        ui->radioButtonFrom2->setChecked(true);
+    } else if (params->radixTo == DEC) {
+        ui->radioButtonFrom10->setChecked(true);
+    } else if (params->radixTo == HEX) {
+        ui->radioButtonFrom16->setChecked(true);
+    } else if (params->radixTo != "") {
+        ui->radioButtonFromPersonal->setChecked(true);
+        ui->lineEditPersonalFrom->setText(QString::fromStdString(params->radixTo));
+        if (params->radixFrom == BIN || params->radixFrom == DEC || params->radixFrom == HEX) {
+            ui->lineEditPersonalTo->setText("");
+        }
+    }
+}
+
+void MainWindow::swapRadixTo(AppParams* params) { //&&&&&&&&&&&
+    if (params->radixFrom == BIN) {
+        ui->radioButtonTo2->setChecked(true);
+    } else if (params->radixFrom == DEC) {
+        ui->radioButtonTo10->setChecked(true);
+    } else if (params->radixFrom == HEX) {
+        ui->radioButtonTo16->setChecked(true);
+    } else if (params->radixFrom != "") {
+        ui->radioButtonToPersonal->setChecked(true);
+        ui->lineEditPersonalTo->setText(QString::fromStdString(params->radixFrom));
+        if (params->radixTo == BIN || params->radixTo == DEC || params->radixTo == HEX) {
+            ui->lineEditPersonalFrom->setText("");
+        }
+    }
+}

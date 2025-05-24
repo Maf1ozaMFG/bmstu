@@ -1,0 +1,11 @@
+C:\Users\Alexey\source\repos\Presentation\DatabaseModels\bin\Release\net8.0\DatabaseModels.deps.json
+C:\Users\Alexey\source\repos\Presentation\DatabaseModels\bin\Release\net8.0\DatabaseModels.dll
+C:\Users\Alexey\source\repos\Presentation\DatabaseModels\bin\Release\net8.0\DatabaseModels.pdb
+C:\Users\Alexey\source\repos\Presentation\DatabaseModels\obj\Release\net8.0\DatabaseModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexey\source\repos\Presentation\DatabaseModels\obj\Release\net8.0\DatabaseModels.AssemblyInfoInputs.cache
+C:\Users\Alexey\source\repos\Presentation\DatabaseModels\obj\Release\net8.0\DatabaseModels.AssemblyInfo.cs
+C:\Users\Alexey\source\repos\Presentation\DatabaseModels\obj\Release\net8.0\DatabaseModels.csproj.CoreCompileInputs.cache
+C:\Users\Alexey\source\repos\Presentation\DatabaseModels\obj\Release\net8.0\DatabaseModels.dll
+C:\Users\Alexey\source\repos\Presentation\DatabaseModels\obj\Release\net8.0\refint\DatabaseModels.dll
+C:\Users\Alexey\source\repos\Presentation\DatabaseModels\obj\Release\net8.0\DatabaseModels.pdb
+C:\Users\Alexey\source\repos\Presentation\DatabaseModels\obj\Release\net8.0\ref\DatabaseModels.dll

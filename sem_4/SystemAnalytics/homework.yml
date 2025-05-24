@@ -1,0 +1,493 @@
+openapi: 3.0.0
+info:
+  title: Grustnogram API
+  version: 1.0.0
+  description: |
+    API для управления пользователями и постами.
+    Изображения передаются в base64.
+
+tags:
+  - name: Users
+    description: Управление пользователями
+  - name: Posts
+    description: Создание и получение постов
+  - name: Comments
+    description: Управление комментариями
+
+servers:
+  - url: https://api.mini-instagram.com/v1
+
+paths:
+  # === Пользователи ===
+  /users:
+    post:
+      tags: [Users]
+      summary: Создать пользователя
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UserCreateRequest"
+            examples:  # Пример запроса
+              UserCreateExample:
+                $ref: "#/components/examples/UserCreateExample"
+                
+      responses:
+        '201':
+          description: Пользователь создан
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UserResponse"
+              examples:
+                UserResponseExample:
+                  $ref: "#/components/examples/UserResponseExample"
+                
+
+  /users/login:
+    post:
+      tags: [Users]
+      summary: Аутентификация
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UserLoginRequest"
+            examples:
+              UserLoginExample:
+                  $ref: "#/components/examples/UserLoginExample"
+      responses:
+        '200':
+          description: Успешный вход
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UserLoginResponse"
+              examples:
+                UserLoginResponseExample:
+                  $ref: "#/components/examples/UserLoginResponseExample"
+                  
+
+  /users/{userId}:
+    patch:
+      tags: [Users]
+      summary: Обновить данные
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UserUpdateRequest"
+            examples:
+              UserUpdateExample:
+                $ref: "#/components/examples/UserUpdateExample"
+      responses:
+        '200':
+          description: Данные обновлены
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UserResponse"
+
+  # === Посты ===
+  /posts:
+    get:
+      tags: [Posts]
+      summary: Получить посты
+      parameters:
+        - name: userId
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Фильтр по ID пользователя
+      responses:
+        '200':
+          description: Список постов
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/PostResponse"
+              examples:
+                  PostResponseExample:
+                    $ref: "#/components/examples/PostResponseExample"
+
+
+    post:
+      tags: [Posts]
+      summary: Создать пост
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PostCreateRequest"
+            examples:
+              PostCreateExample:
+                $ref: "#/components/examples/PostCreateExample"
+            
+      responses:
+        '201':
+          description: Пост создан
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PostResponse"
+                
+  # === Комментарии ===              
+  /comments:
+    get:
+      tags: [Comments]
+      summary: Получить комментарии
+      parameters:
+        - name: userId
+          in: query
+          required: false
+          schema:
+            type: string
+          description: Фильтр по ID пользователя
+      responses:
+        '200':
+          description: Список комментариев
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/CommentResponse"
+              examples:
+                CommentResponseExample:
+                  $ref: "#/components/examples/CommentResponseExample"
+          
+    post:
+      tags: [Comments]
+      summary: Создать комментарий
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CommentCreateRequest"
+            examples:
+              CommentCreateExample:
+                $ref: "#/components/examples/CommentCreateExample"
+              
+      responses:
+        '201':
+          description: Комментарий создан
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CommentResponse"
+      
+  /comments/{commentId}:
+    patch:
+      tags: [Comments]
+      summary: Редактировать комментарий
+      parameters:
+        - name: commentId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CommentUpdateRequest"
+            examples:
+              CommentUpdateExample:
+                $ref: "#/components/examples/CommentUpdateExample"
+      responses:
+        '200':
+          description: Комментарий отредактирован
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CommentResponse"
+    delete:
+      tags: [Comments]
+      summary: Удалить комментарий (устаревший)
+      deprecated: true
+      parameters:
+        - name: commentId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Комментарий удалён
+
+components:
+  schemas:
+    # === Базовые сущности ===
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          readOnly: true
+          example: "507f1f77bcf86cd799439011"
+        username:
+          type: string
+          example: "ivan_ivanov"
+        email:
+          type: string
+          format: email
+          example: "ivan@example.com"
+        password:
+          type: string
+          format: password
+          writeOnly: true
+        bio:
+          type: string
+          nullable: true
+        avatarUrl:
+          type: string
+          format: uri
+          nullable: true
+
+    Post:
+      type: object
+      properties:
+        id:
+          type: string
+          readOnly: true
+          example: "65a1f2e3bcf86cd799439012"
+        userId:
+          type: string
+          readOnly: true
+          example: "507f1f77bcf86cd799439011"
+        caption:
+          type: string
+          example: "Мой новый пост!"
+        imageUrl:
+          type: string
+          format: uri
+          readOnly: true
+          example: "https://storage.com/posts/1.jpg"
+        likesCount:
+          type: integer
+          readOnly: true
+          example: 0
+        createdAt:
+          type: string
+          format: date-time
+          readOnly: true
+          example: "2023-12-15T10:30:00Z"
+          
+    ExtendedPost:
+      allOf:
+        - $ref: "#/components/schemas/Post"
+        - type: object
+          properties:
+            title:
+              type: string
+              example: "О том, как я скачал Grustnogramm"
+            tags:
+              type: array
+              items:
+                type: string
+              example: ["видеоигры", "музыка", "отпуск"]
+          
+    Comment:
+      type: object
+      properties:
+        id:
+          type: string
+          readOnly: true
+          example: "65a1f2e3bcf86cd799439013"
+        userId:
+          type: string
+          readOnly: true
+          example: "507f1f77bcf86cd799439011"
+        text:
+          type: string
+          nullable: true
+          example: "Йоу, ну что за клевая соц.сеть - Grustnogramm. Лучшая замена Ин***грамма!"
+        likesCount:
+          type: integer
+          readOnly: true
+          example: 12
+        createdAt:
+          type: string
+          format: date-time
+          readOnly: true
+          example: "2024-01-15T10:30:00Z"
+        
+
+    # === Запросы ===
+    UserCreateRequest:
+      allOf:
+        - $ref: "#/components/schemas/User"
+      required:
+        - username
+        - email
+        - password
+
+    UserLoginRequest:
+      type: object
+      required:
+        - email
+        - password
+      properties:
+        email:
+          type: string
+          format: email
+        password:
+          type: string
+          format: password
+
+    UserUpdateRequest:
+      type: object
+      properties:
+        username:
+          type: string
+          nullable: true
+        bio:
+          type: string
+          nullable: true
+        avatarUrl:
+          type: string
+          format: uri
+          nullable: true
+
+    PostCreateRequest:
+      type: object
+      required:
+        - userId
+        - caption
+        - imageBase64
+      properties:
+        userId:
+          type: string
+        caption:
+          type: string
+        imageBase64:
+          type: string
+          format: byte
+          description: Изображение в base64
+        location:
+          type: string
+          nullable: true
+          
+    CommentCreateRequest:
+      type: object
+      required: 
+        - userId
+        - text
+      properties:
+        userId:
+          type: string
+        text:
+          type: string
+    
+    CommentUpdateRequest:
+      type: object
+      properties:
+        text:
+          type: string
+
+    # === Ответы ===
+    UserResponse:
+      allOf:
+        - $ref: "#/components/schemas/User"
+      properties:
+        password:
+          nullable: true
+          writeOnly: true
+
+    UserLoginResponse:
+      type: object
+      properties:
+        token:
+          type: string
+        user:
+          $ref: "#/components/schemas/UserResponse"
+
+    PostResponse:
+      allOf:
+        - $ref: "#/components/schemas/Post"
+    
+    CommentResponse:
+      allOf:
+        - $ref: "#/components/schemas/Comment"
+    
+  examples:
+    UserCreateExample:
+      value:
+        username: "ivan_ivanov"
+        email: "ivan@example.com"
+        password: "qwerty123"
+        bio: "Фотограф из Москвы"
+        
+    UserUpdateExample:
+      value:
+        username: "new_username"
+        bio: "Обновлённое био"
+
+    UserResponseExample:
+      value:
+        id: "507f1f77bcf86cd799439011"
+        username: "ivan_ivanov"
+        email: "ivan@example.com"
+        bio: "Фотограф из Москвы"
+        avatarUrl: null
+
+    UserLoginExample:
+      value:
+        email: "ivan@example.com"
+        password: "qwerty123"
+
+    UserLoginResponseExample:
+      value:
+        token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+        user:
+          id: "507f1f77bcf86cd799439011"
+          username: "ivan_ivanov"
+          email: "ivan@example.com"
+
+    PostCreateExample:
+      value:
+        userId: "507f1f77bcf86cd799439011"
+        caption: "Мой новый пост!"
+        imageBase64: "iVBORw0KGgoAAAANSUhEUgAA..."
+        location: "Москва"
+
+    PostResponseExample:
+      value:
+          - id: "65a1f2e3bcf86cd799439012"
+            userId: "507f1f77bcf86cd799439011"
+            caption: "Мой новый пост!"
+            imageUrl: "https://storage.com/posts/1.jpg"
+            likesCount: 10
+            createdAt: "2023-12-15T10:30:00Z"
+
+    CommentCreateExample:
+      value:
+        userId: "507f1f77bcf86cd799439011"
+        text: "Да елки моталки, ну я просто в шоке с нового поста моего кента!"
+        
+    CommentUpdateExample:
+      value:
+        text: "Новый текст комментария"
+              
+    CommentResponseExample:
+      value:
+        - id: "65a1f2e3bcf86cd799439012"
+          userId: "507f1f77bcf86cd799439011"
+          text: "Ну что за имба соц.сеть, я не могу))))"
+          likesCount: 12
+          createdAt: "2024-01-15T10:30:00Z"

@@ -1,0 +1,9 @@
+{
+    "NumberOfStudents": 30,
+    "NumberOfTesters": 5,
+    "NumberOfTeachers": 4,
+    "StudentEmitFrequencyMs": 5000,
+    "TestProcessingTimeMs": 1500,
+    "TeacherProcessingTimeMs": 4000,
+    "RandomDelayMaxMs": 2000
+} 

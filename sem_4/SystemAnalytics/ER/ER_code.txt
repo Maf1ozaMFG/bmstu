@@ -1,0 +1,70 @@
+@startuml
+!theme spacelab-white
+entity User {
+* id : int <<PK>>
+--
+* name : text
+* email : text
+* phone : text
+* registration_date : datetime
+}
+
+entity Doctor {
+* id : int <<PK>>
+--
+* name : text
+* speciality : text
+--
+* clinic_id : int <<FK>>
+}
+
+entity Schedule {
+* id : int <<PK>>
+* work_hours_start : datetime
+* work_hours_end : datetime
+* work_day : DayOfWeek
+--
+* doctor_id : int <<FK>>
+}
+
+ENUM DayOfWeek {
+MONDAY
+TUESDAY
+WEDNESDAY
+THURSDAY
+FRIDAY
+SATURDAY
+}
+
+ENUM AppointmentStatus {
+SCHEDULED
+AVAILABLE
+}
+
+entity Clinic {
+* id : int <<PK>>
+--
+* name : text
+* address : text
+work_hours_start : datetime
+work_hours_end : datetime
+}
+
+entity Appointment {
+* id : int <<PK>>
+--
+* appointment_date : datetime
+* status : AppointmentStatus
+--
+* user_id : int <<FK>>
+* doctor_id : int <<FK>>
+}
+
+AppointmentStatus --{ Appointment
+DayOfWeek --{ Schedule
+
+User |o..|{ Appointment
+Doctor ||..|{ Schedule
+Doctor }|..|| Clinic
+Doctor |o..|{ Appointment
+@enduml
